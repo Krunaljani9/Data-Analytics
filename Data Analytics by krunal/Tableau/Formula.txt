@@ -1,0 +1,7 @@
+Formula for KPI
+1) Attrition_Count
+    if [Attrition]='Yes' THEN 1 ELSE 0 END
+2) Attrition_Rate
+     SUM([Attrition_count])/SUM([Employee Count])
+3) Active Employee
+    SUM([Employee Count])-SUM([Attrition_count])
